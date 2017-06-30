@@ -70,10 +70,10 @@
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#totop">Home</a></li>
               <li><a class="section-scroll" href="#services">Services</a></li>
-              <li><a class="section-scroll" href="#works">Works</a></li>
+              <!--<li><a class="section-scroll" href="#works">Works</a></li>-->
               <li><a class="section-scroll" href="#alt-features">Features</a></li>
               <li><a class="section-scroll" href="#team">Team</a></li>
-              <li><a class="section-scroll" href="#pricing">Prices</a></li>
+              <!--<li><a class="section-scroll" href="#pricing">Prices</a></li>-->
               <li><a class="section-scroll" href="#news">News</a></li>
               <li><a class="section-scroll" href="#contact">Contact</a></li>
             </ul>
@@ -126,6 +126,7 @@
                   <p>Accidentally cutting someone off or almost hitting them because you forgot to check your blind spot.</p>
                 </div>
               </div>
+
               <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="features-item">
                   <div class="features-icon"><span class="icon-tools-2"></span></div>
@@ -405,7 +406,7 @@
             </div>
           </div>
         </section>
-        <section class="module pb-0" id="works">
+        <!--<section class="module pb-0" id="works">
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
@@ -465,7 +466,7 @@
                   <div class="work-descr">Marketing</div>
                 </div></a></li>
           </ul>
-        </section>
+        </section>-->
         <section class="module-small bg-dark">
           <div class="container">
             <div class="row">
@@ -508,7 +509,7 @@
                 </div>
                 <div class="alt-features-item">
                   <div class="alt-features-icon"><span class="icon-tools"></span></div>
-                  <h3 class="alt-features-title font-alt">Design</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+                  <h3 class="alt-features-title font-alt">Are you the cause</h3>Do you keep your high beams on, regardless of oncoming traffic?
                 </div>
               </div>
               <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
@@ -517,31 +518,31 @@
               <div class="col-sm-6 col-md-3 col-lg-3">
                 <div class="alt-features-item">
                   <div class="alt-features-icon"><span class="icon-camera"></span></div>
-                  <h3 class="alt-features-title font-alt">Photography</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+                  <h3 class="alt-features-title font-alt">Did this</h3>Do you switch lanes or make turns without using your turn signal?
                 </div>
                 <div class="alt-features-item">
                   <div class="alt-features-icon"><span class="icon-mobile"></span></div>
-                  <h3 class="alt-features-title font-alt">Mobile</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+                  <h3 class="alt-features-title font-alt">In hurry ?</h3>Do you fail to check your blind spot before switching lanes to make sure you aren’t cutting someone off?
                 </div>
                 <div class="alt-features-item">
                   <div class="alt-features-icon"><span class="icon-linegraph"></span></div>
-                  <h3 class="alt-features-title font-alt">Music</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+                  <h3 class="alt-features-title font-alt">Stats</h3>2% of drivers admit to trying to run an aggressor off the road!
                 </div>
                 <div class="alt-features-item">
                   <div class="alt-features-icon"><span class="icon-basket"></span></div>
-                  <h3 class="alt-features-title font-alt">Shop</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+                  <h3 class="alt-features-title font-alt">Scary</h3>Even in those accidents that do not result in injury, road rage can be linked as a causing factor.
                 </div>
               </div>
             </div>
           </div>
         </section>
         <hr class="divider-w">
-        <section class="module" id="team">
+        <!--s<section class="module" id="team">
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
                 <h2 class="module-title font-alt">Meet Our Team</h2>
-                <div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
+                <div class="module-subtitle font-serif">A bunch of people who come together to make solve the savage.</div>
               </div>
             </div>
             <div class="row">
@@ -607,7 +608,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section>-->
         <section class="module bg-dark-60" data-background="assets/images/section-3.jpg">
           <div class="container">
             <div class="row">
@@ -620,35 +621,35 @@
               <div class="col-sm-6 col-md-3 col-lg-3">
                 <div class="count-item mb-sm-40">
                   <div class="count-icon"><span class="icon-wallet"></span></div>
-                  <h3 class="count-to font-alt" data-countto="6543"></h3>
-                  <h5 class="count-title font-serif">Dollars raised for charity</h5>
+                  <h3 class="count-to font-alt" data-countto="0450"></h3>
+                  <h5 class="count-title font-serif">Dollars spent on recovering from an average accident</h5>
                 </div>
               </div>
               <div class="col-sm-6 col-md-3 col-lg-3">
                 <div class="count-item mb-sm-40">
                   <div class="count-icon"><span class="icon-wine"></span></div>
-                  <h3 class="count-to font-alt" data-countto="8"></h3>
-                  <h5 class="count-title font-serif">Cups of wine consumed</h5>
+                  <h3 class="count-to font-alt" data-countto="3"></h3>
+                  <h5 class="count-title font-serif">out of 10 accidents happens due to drunken drivers</h5>
                 </div>
               </div>
               <div class="col-sm-6 col-md-3 col-lg-3">
                 <div class="count-item mb-sm-40">
                   <div class="count-icon"><span class="icon-camera"></span></div>
-                  <h3 class="count-to font-alt" data-countto="184"></h3>
-                  <h5 class="count-title font-serif">Photographs taken</h5>
+                  <h3 class="count-to font-alt" data-countto="40"></h3>
+                  <h5 class="count-title font-serif">Photographs needed on-spot for further investigations</h5>
                 </div>
               </div>
               <div class="col-sm-6 col-md-3 col-lg-3">
                 <div class="count-item mb-sm-40">
                   <div class="count-icon"><span class="icon-map-pin"></span></div>
-                  <h3 class="count-to font-alt" data-countto="32"></h3>
-                  <h5 class="count-title font-serif">Locations covered</h5>
+                  <h3 class="count-to font-alt" data-countto="42"></h3>
+                  <h5 class="count-title font-serif">Percentage of locations are prone to road rage.</h5>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section class="module" id="pricing">
+        <!--<section class="module" id="pricing">
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
@@ -725,7 +726,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section>-->
         <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="assets/images/testimonial_bg.jpg">
           <div class="testimonials-slider pt-140 pb-140">
             <ul class="slides">
@@ -738,14 +739,14 @@
                   </div>
                   <div class="row">
                     <div class="col-sm-8 col-sm-offset-2">
-                      <blockquote class="testimonial-text font-alt">I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.</blockquote>
+                      <blockquote class="testimonial-text font-alt">Alert today – Alive tomorrow.</blockquote>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-sm-4 col-sm-offset-4">
                       <div class="testimonial-author">
                         <div class="testimonial-caption font-alt">
-                          <div class="testimonial-title">Jack Woods</div>
+                          <div class="testimonial-title">Anonymous</div>
                           <div class="testimonial-descr">SomeCompany INC, CEO</div>
                         </div>
                       </div>
@@ -762,14 +763,14 @@
                   </div>
                   <div class="row">
                     <div class="col-sm-8 col-sm-offset-2">
-                      <blockquote class="testimonial-text font-alt">I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</blockquote>
+                      <blockquote class="testimonial-text font-alt">Normal speed meets every need.</blockquote>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-sm-4 col-sm-offset-4">
                       <div class="testimonial-author">
                         <div class="testimonial-caption font-alt">
-                          <div class="testimonial-title">Jim Stone</div>
+                          <div class="testimonial-title">Anonymous</div>
                           <div class="testimonial-descr">SomeCompany INC, CEO</div>
                         </div>
                       </div>
@@ -786,14 +787,14 @@
                   </div>
                   <div class="row">
                     <div class="col-sm-8 col-sm-offset-2">
-                      <blockquote class="testimonial-text font-alt">I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</blockquote>
+                      <blockquote class="testimonial-text font-alt">Anyone driving slower than you is an idiot, and anyone going faster than you is a maniac.</blockquote>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-sm-4 col-sm-offset-4">
                       <div class="testimonial-author">
                         <div class="testimonial-caption font-alt">
-                          <div class="testimonial-title">Adele Snow</div>
+                          <div class="testimonial-title">Anonymous</div>
                           <div class="testimonial-descr">SomeCompany INC, CEO</div>
                         </div>
                       </div>
