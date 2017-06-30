@@ -892,7 +892,7 @@
             </div>
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
-                <form id="contactForm" role="form" method="post" action="php/contact.php">
+                <!--<form id="contactForm" role="form" method="post" action="php/contact.php">
                   <div class="form-group">
                     <label class="sr-only" for="name">Name</label>
                     <input class="form-control" type="text" id="name" name="name" placeholder="Your Name*" required="required" data-validation-required-message="Please enter your name."/>
@@ -910,7 +910,40 @@
                   <div class="text-center">
                     <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit">Submit</button>
                   </div>
-                </form>
+                </form>-->
+                <p>Required fields are <b>bold</b></p>
+
+<form action="contact.php" method="post">
+<div class="form-group"><p><b>Your Name:</b> <input type="text" name="yourname" /></div><br />
+<div class="form-group"><b>Subject:</b> <input type="text" name="subject" /></div><br />
+<div class="form-group"><b>E-mail:</b> <input type="text" name="email" /></div><br />
+<div class="form-group">Website: <input type="text" name="website"></div></p>
+
+<p>Do you like this website?
+<div class="form-group"><input type="radio" name="likeit" value="Yes" checked="checked" /> Yes</div>
+<div class="form-group"><input type="radio" name="likeit" value="No" /> No</div>
+<div class="form-group"><input type="radio" name="likeit" value="Not sure" /> Not sure</div></p>
+
+<p>How did you find us?
+<select name="how">
+<div class="form-group"><option value=""> -- Please select -- </option></div>
+<option>Google</option>
+<option>Yahoo</option>
+<option>Link from a website</option>
+<option>Word of mouth</option>
+<option>Other</option>
+</select>
+
+<p><b>Your comments:</b><br />
+<textarea name="comments" rows="10" cols="40"></textarea></p>
+
+<div class="text-center">
+    <input type="submit" value="Send it!">
+</div>
+<p> </p>
+
+</form>
+
                 <div class="ajax-response font-alt" id="contactFormResponse"></div>
               </div>
             </div>
