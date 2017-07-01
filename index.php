@@ -38,6 +38,11 @@
 
     -->
 
+    <!-- BEGIN PRIVY WIDGET CODE -->
+<script type='text/javascript'> var _d_site = _d_site || 'D93EF211CC851827CDBDDFE3'; </script>
+<script src='//widget.privy.com/assets/widget.js'></script>
+<!-- END PRIVY WIDGET CODE -->
+
     <!-- Default stylesheets-->
     <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Template specific stylesheets-->
@@ -64,7 +69,7 @@
       <nav class="navbar navbar-custom navbar-transparent navbar-fixed-top one-page" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">Titan</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">Road Rage</a>
           </div>
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -253,7 +258,7 @@
                               <div>
                                   <img data-u="image" src="img/blue.jpg" />
                               </div>
-                              <a data-u="any" href="https://www.jssor.com/wordpress.html" style="display:none">wordpress gallery</a>
+                              <!--<a data-u="any" href="https://www.jssor.com/wordpress.html" style="display:none">wordpress gallery</a>-->
                           </div>
                           <!-- Bullet Navigator -->
                           <div data-u="navigator" class="jssorb051" style="position:absolute;bottom:14px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
@@ -278,118 +283,10 @@
                       <script type="text/javascript">jssor_1_slider_init();</script>
                       <!-- #endregion Jssor Slider End -->
                   </body>
-                  <body style="padding:0px; margin:0px; background-color:#fff;font-family:'Open Sans',sans-serif,arial,helvetica,verdana">
-
-                      <!-- #region Jssor Slider Begin -->
-                      <script src="js/jssor.slider-25.0.7.min.js" type="text/javascript"></script>
-                      <script type="text/javascript">
-                          jssor_1_slider_init = function() {
-
-                              var jssor_1_SlideoTransitions = [
-                                [{b:900,d:2000,x:-379,e:{x:7}}],
-                                [{b:900,d:2000,x:-379,e:{x:7}}],
-                                [{b:-1,d:1,o:-1,sX:2,sY:2},{b:0,d:900,x:-171,y:-341,o:1,sX:-2,sY:-2,e:{x:3,y:3,sX:3,sY:3}},{b:900,d:1600,x:-283,o:-1,e:{x:16}}]
-                              ];
-
-                              var jssor_1_options = {
-                                $AutoPlay: 1,
-                                $SlideDuration: 800,
-                                $SlideEasing: $Jease$.$OutQuint,
-                                $CaptionSliderOptions: {
-                                  $Class: $JssorCaptionSlideo$,
-                                  $Transitions: jssor_1_SlideoTransitions
-                                },
-                                $ArrowNavigatorOptions: {
-                                  $Class: $JssorArrowNavigator$
-                                },
-                                $BulletNavigatorOptions: {
-                                  $Class: $JssorBulletNavigator$
-                                }
-                              };
-
-                              var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
-                              /*#region responsive code begin*/
-                              /*remove responsive code if you don't want the slider scales while window resizing*/
-                              function ScaleSlider() {
-                                  var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
-                                  if (refSize) {
-                                      refSize = Math.min(refSize, 1920);
-                                      jssor_1_slider.$ScaleWidth(refSize);
-                                  }
-                                  else {
-                                      window.setTimeout(ScaleSlider, 30);
-                                  }
-                              }
-                              ScaleSlider();
-                              $Jssor$.$AddEvent(window, "load", ScaleSlider);
-                              $Jssor$.$AddEvent(window, "resize", ScaleSlider);
-                              $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-                              /*#endregion responsive code end*/
-                          };
-                      </script>
-                      <style>
-                          .jssorb051 .i {position:absolute;cursor:pointer;}
-                          .jssorb051 .i .b {fill:#fff;fill-opacity:0.5;stroke:#000;stroke-width:400;stroke-miterlimit:10;stroke-opacity:0.5;}
-                          .jssorb051 .i:hover .b {fill-opacity:.7;}
-                          .jssorb051 .iav .b {fill-opacity: 1;}
-                          .jssorb051 .i.idn {opacity:.3;}
-
-                          .jssora051 {display:block;position:absolute;cursor:pointer;}
-                          .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
-                          .jssora051:hover {opacity:.8;}
-                          .jssora051.jssora051dn {opacity:.5;}
-                          .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
-                      </style>
-                      <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;visibility:hidden;">
-                          <!-- Loading Screen -->
-                          <div data-u="loading" style="position:absolute;top:0px;left:0px;background:url('img/loading.gif') no-repeat 50% 50%;background-color:rgba(0, 0, 0, 0.7);"></div>
-                          <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;">
-                              <div>
-                                  <img data-u="image" src="img/red.jpg" />
-                                  <div style="position:absolute;top:30px;left:30px;width:480px;height:120px;z-index:0;font-size:50px;color:#ffffff;line-height:60px;">TOUCH SWIPE SLIDER</div>
-                                  <div style="position:absolute;top:300px;left:30px;width:480px;height:120px;z-index:0;font-size:30px;color:#ffffff;line-height:38px;">Build your slider with anything, includes image, content, text, html, photo, picture</div>
-                                  <div style="position:absolute;top:120px;left:650px;width:470px;height:220px;z-index:0;">
-                                      <img style="position:absolute;top:0px;left:0px;width:470px;height:220px;z-index:0;" src="img/c-phone-horizontal.png" />
-                                      <div style="position:absolute;top:4px;left:45px;width:379px;height:213px;z-index:0; overflow:hidden;">
-                                          <img data-u="caption" data-t="0" style="position:absolute;top:0px;left:0px;width:379px;height:213px;z-index:0;" src="img/c-slide-1.jpg" />
-                                          <img data-u="caption" data-t="1" style="position:absolute;top:0px;left:379px;width:379px;height:213px;z-index:0;" src="img/c-slide-3.jpg" />
-                                      </div>
-                                      <img style="position:absolute;top:4px;left:45px;width:379px;height:213px;z-index:0;" src="img/c-navigator-horizontal.png" />
-                                      <img data-u="caption" data-t="2" style="position:absolute;top:476px;left:454px;width:63px;height:77px;z-index:0;" src="img/hand.png" />
-                                  </div>
-                              </div>
-                              <div>
-                                  <img data-u="image" src="img/purple.jpg" />
-                              </div>
-                              <div>
-                                  <img data-u="image" src="img/blue.jpg" />
-                              </div>
-                              <a data-u="any" href="https://www.jssor.com/wordpress.html" style="display:none">wordpress gallery</a>
-                          </div>
-                          <!-- Bullet Navigator -->
-                          <div data-u="navigator" class="jssorb051" style="position:absolute;bottom:14px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
-                              <div data-u="prototype" class="i" style="width:18px;height:18px;">
-                                  <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                                      <circle class="b" cx="8000" cy="8000" r="5800"></circle>
-                                  </svg>
-                              </div>
-                          </div>
-                          <!-- Arrow Navigator -->
-                          <div data-u="arrowleft" class="jssora051" style="width:65px;height:65px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
-                              <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                                  <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
-                              </svg>
-                          </div>
-                          <div data-u="arrowright" class="jssora051" style="width:65px;height:65px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
-                              <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                                  <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
-                              </svg>
-                          </div>
-                      </div>
-                      <script type="text/javascript">jssor_1_slider_init();</script>
-                      <!-- #endregion Jssor Slider End -->
-                  </body>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
 <!--poll-maker-->
 <div id="qp_all1104779" style="width:100%;"><link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'><STYLE>#qp_main1104779 .qp_btna:hover input {background:#3ba038!important} #qp_main1104779[results='0'] .qp_a:hover {background-color:#d8d8d8!important} #qp_main1104779[results='0'] .qp_a[sel='1'] {background-color:#D4DDFA!important}#qp_all1104779 {max-width:815px; margin:0 auto;}</STYLE><div id="qp_main1104779" fp='d1834F76-46' results=0 style="border-radius:0px;padding:0.8em;margin:0 auto;background-color:#FFF;font-family:'Open Sans', sans-serif,Arial;color:#000;border:1px solid #DBD9D9;max-width:815px;box-sizing:border-box"><div style="font-size:1.2em;background-color:#2E2E2E;color:#FFF;font-family:'Open Sans', sans-serif, Arial"><div style="line-height:30px;padding:10px 15px">Is this ok?</div></div><form id="qp_form1104779" action="//www.poll-maker.com/results1104779xd1834F76-46" method="post" target="_blank" style="display:inline;margin:0px;padding:0px"><div style="padding:0px"><input type=hidden name="qp_d1104779" value="42915.1506365798-42915.1506850157"><div style="display:block;color:#6B6B6B;background-color:#e9e7e7;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding: 13px 8px 11px;margin:10px 0px;clear:both;-webkit-transition:background-color 100ms ease-in" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:checkbox;" name="qp_v1104779" type="checkbox" value="1" />Its amazing</span></div><div style="display:block;color:#6B6B6B;background-color:#e9e7e7;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding: 13px 8px 11px;margin:10px 0px;clear:both;-webkit-transition:background-color 100ms ease-in" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:checkbox;" name="qp_v1104779" type="checkbox" value="2" />I dont approve</span></div><div style="display:block;color:#6B6B6B;background-color:#e9e7e7;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding: 13px 8px 11px;margin:10px 0px;clear:both;-webkit-transition:background-color 100ms ease-in" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:checkbox;" name="qp_v1104779" type="checkbox" value="3" />yes</span></div><div style="display:block;color:#6B6B6B;background-color:#e9e7e7;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding: 13px 8px 11px;margin:10px 0px;clear:both;-webkit-transition:background-color 100ms ease-in" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:checkbox;" name="qp_v1104779" type="checkbox" value="4" />no</span></div><div style="display:block;color:#6B6B6B;background-color:#e9e7e7;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding: 13px 8px 11px;margin:10px 0px;clear:both;-webkit-transition:background-color 100ms ease-in" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:checkbox;" name="qp_v1104779" type="checkbox" value="999" />Other</span></div><div id="qp_ot1104779" style="display:block;color:#6B6B6B;background-color:#e9e7e7;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding: 13px 8px 11px;margin:10px 0px;clear:both;-webkit-transition:background-color 100ms ease-in"><div style="padding-left:33px">Please Specify: <input style="width:100%;position:relative;top:2px" name='qp_other1104779' type=text value=''></div></div></div><div style="padding-left:0px;clear:both;margin:1em auto"><a style="display:inline-block;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;padding-right:5px;text-decoration:none" class="qp_btna" href="#"><input name="qp_b1104779" style="min-width:8.5em;padding:0.5em;background-color:#4ebd4a;font-family: 'Open Sans', sans-serif, Arial;font-size:16px;color:#FFF;cursor:pointer;cursor:hand;border:0px;-webkit-appearance:none;border-radius:0px" type="submit" btype="v" value="Vote" /></a><a style="display:inline-block;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;padding-left:5px;text-decoration:none" class="qp_btna" href="#"><input name="qp_b1104779" style="min-width:8.5em;padding:0.5em;background-color:#4ebd4a;font-family: 'Open Sans', sans-serif, Arial;font-size:16px;color:#FFF;cursor:pointer;cursor:hand;border:0px;-webkit-appearance:none;border-radius:0px" type="submit" btype="r" value="Results" /></a></div><a id="qp_a1104779" style="float:right;font-family:Arial;font-size:10px;color:rgb(0,0,0);text-decoration:none" href="http://www.poll-maker.com"></a></form><div style="display:none"><div id="qp_rp1104779" style="font-size:11px;width:5ex;text-align:right;overflow:hidden;position:absolute;right:5px;height:1.5em;line-height:1.5em"></div><div id="qp_rv1104779" style="font-size:11px;width:0%;line-height:1.5em;text-align:right;color:#FFF;box-sizing:border-box;padding-right:3px"></div><div id="qp_rb1104779" style="font-size:12px;color:rgb(255,255,255);display:block;font-size:12px;padding-right:10px 5px"></div><div id="qp_rva1104779" style="background:#006FB9;border-color:#006FB9"></div><div id="qp_rvb1104779" style="background:#163463;border-color:#163463"></div><div id="qp_rvc1104779" style="background:#5BCFFC;border-color:#1481AB"></div></div></div></div><script src="//scripts.poll-maker.com/3012/scpolls.js" language="javascript"></script>
 
@@ -859,7 +756,7 @@
             </div>
           </div>
         </section>
-        <div class="module-small bg-dark">
+        <!--<div class="module-small bg-dark">
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">
@@ -881,7 +778,8 @@
               </div>
             </div>
           </div>
-        </div>
+        </div>-->
+        <div class="privy-embed-form" data-campaign="248664"></div>
         <section class="module" id="contact">
           <div class="container">
             <div class="row">
@@ -911,7 +809,7 @@
                     <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit">Submit</button>
                   </div>
                 </form>-->
-                <p>Required fields are <b>bold</b></p>
+                <center><p>Required fields are <b>bold</b></p>
 
 <form action="contact.php" method="post">
 <div class="form-group"><p><b>Your Name:</b> <input type="text" name="yourname" /></div><br />
@@ -938,11 +836,11 @@
 <textarea name="comments" rows="10" cols="40"></textarea></p>
 
 <div class="text-center">
-    <input type="submit" value="Send it!">
+    <input class="btn btn-b btn-circle" type="submit" value="Send it!" />
 </div>
 <p> </p>
 
-</form>
+</form></center>
 
                 <div class="ajax-response font-alt" id="contactFormResponse"></div>
               </div>
@@ -957,10 +855,10 @@
             <div class="row">
               <div class="col-sm-3">
                 <div class="widget">
-                  <h5 class="widget-title font-alt">About Titan</h5>
-                  <p>The languages only differ in their grammar, their pronunciation and their most common words.</p>
-                  <p>Phone: +1 234 567 89 10</p>Fax: +1 234 567 89 10
-                  <p>Email:<a href="#">somecompany@example.com</a></p>
+                  <h5 class="widget-title font-alt">About Road Rage</h5>
+                  <p> Road rage is defined as aggressive or violent behavior stemming from a driver's uncontrolled anger at the actions of another motorist.</p>
+                  <p>Phone: TO be revealed soon</p>
+                  <p>Email:<a href="#">to be revealed soon</a></p>
                 </div>
               </div>
               <div class="col-sm-3">
